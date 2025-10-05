@@ -5,7 +5,7 @@ import numpy as np
 import pytesseract
 import re
 
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+#pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
 # ---
 st.sidebar.image("https://streamlit.io/images/brand/streamlit-logo-secondary-colormark-darktext.png", width=180)
@@ -91,4 +91,5 @@ st.markdown("<hr>", unsafe_allow_html=True)
 st.markdown(
     "<div style='text-align: center; color: #888;'>Made with ❤️ using Streamlit & Tesseract OCR</div>",
     unsafe_allow_html=True
+
 )
